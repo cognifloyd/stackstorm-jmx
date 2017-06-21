@@ -1,6 +1,6 @@
 ---
   name: "invoke_method"
-  runner_type: "run-python"
+  runner_type: "python-script"
   description: "Invoke a provided MBean method exposed over JMX."
   enabled: true
   entry_point: "invoke_method.py"
